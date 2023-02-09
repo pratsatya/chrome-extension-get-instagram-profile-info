@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Instagram Profile Info Scraper",
+    "version": "1.0",
+    "description": "This extension will scrape any Instagram profile info for the logged in user",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab",
+        "https://www.instagram.com/",
+        "storage"
+    ]
+}
